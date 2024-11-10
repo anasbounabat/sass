@@ -1,0 +1,73 @@
+.Box1 {
+  display: flex;
+  height: 500px;
+  padding: 20px;
+
+  .left {
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+    margin-left: 50px;
+    margin-top: 70px;
+    padding: 20px;
+
+    h1 {
+      font-size: $font-size-xlarge;
+      color: $text-color;
+      margin-bottom: 15px;
+    }
+
+    h3 {
+      font-size: $font-size-large;
+      color: #000000;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: $font-size-small;
+      width: 380px;
+      margin-left: 50px;
+      gap: 20px;
+      line-height: 1.5;
+    }
+
+    .buttonleft {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+
+      .btn-left {
+        display: flex; 
+      align-items: center; 
+        gap: 10px;
+        padding: 12px 25px;
+        font-size: $font-size-btn;
+        border: 2px solid $primary-color;
+        border-radius: $border-radius;
+        cursor: pointer;
+        background-color: transparent;
+        color: $primary-color;
+      }
+
+      .btn-right {
+        padding: 12px 25px;
+        font-size: $font-size-btn;
+        border: 2px solid $primary-color;
+        border-radius: $border-radius;
+        cursor: pointer;
+        background-color: $primary-color;
+        color: white;
+      }
+    }
+  }
+}
+
+.Box1 .right {
+  width: 60%;
+}
+
+.Box1 .right img {
+  max-width: 100%;
+  height: auto;
+}

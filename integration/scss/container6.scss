@@ -1,0 +1,48 @@
+.container6 {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+  
+    .block1 {
+      height: 410px;
+      width: 370px;
+      background-color: #ffffff;
+      border-radius: $border-radius;
+      margin-bottom: 150px;
+      box-shadow: $box-shadow;
+  
+      img {
+        margin: 10px;
+        border-radius: $border-radius;
+        width: 350px;
+      }
+  
+      p {
+        background-color: #3a99ff;
+        color: white;
+        border-radius: $border-radius;
+        width: 80px;
+        height: 20px;
+        font-size: $font-size-small;
+        margin-left: 10px;
+        padding: 5px;
+        margin-bottom: 20px;
+      }
+  
+      h3 {
+        font-size: 15px;
+        margin-bottom: 15px;
+        margin-left: 10px;
+      }
+  
+      h5 {
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 5px;
+        font-weight: normal;
+      }
+    }
+  }

@@ -1,0 +1,10 @@
+$width: 370px;
+$height: 280px;
+@mixin card($width, $height) {
+  width: $width;
+  height: $height;
+  background-color: #ffffff;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  margin: 10px;
+}

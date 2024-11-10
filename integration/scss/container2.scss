@@ -1,0 +1,44 @@
+$color_1: black;
+$color_2: #02199b;
+$color_3: $primary-color;
+$background-color_1: white;
+
+.container2 {
+	height: 90px;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 20px;
+}
+.top {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	h5 {
+		font-size: $font-size-medium;
+		margin: 0;
+		color: $color_1;
+	}
+	h4 {
+		font-size: $font-size-xxlarge;
+		margin: 0;
+		color: $color_2;
+	}
+}
+.topb {
+	button {
+		background-color: $background-color_1;
+		padding: 10px 20px;
+		color: $color_3;
+		border: 2px solid $primary-color;
+		border-radius: $border-radius;
+		display: flex;
+		align-items: center;
+		i {
+			margin-left: 8px;
+		}
+	}
+}

@@ -1,0 +1,37 @@
+.container3 {
+  margin-top: 50px;
+  width: 1200px;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.dog-card {
+  @include card(280px, 370px);
+
+  &__image {
+    margin: 20px;
+    border-radius: $border-radius;
+    width: 260px;
+    max-height: 200px;  // Définis une hauteur maximale pour les images
+  }
+
+  &__title {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+  }
+
+  &__description {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: $font-size-small;
+  }
+
+  &__price {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+}
